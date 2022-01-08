@@ -13,6 +13,7 @@
 
 var LimitedArray = function(limit) {
   var storage = [];
+  // console.log(storage);
 
   var limitedArray = {};
   limitedArray.get = function(index) {
